@@ -1,0 +1,108 @@
+
+    thead
+    {
+        background-color:#808080;
+
+    }
+    tbody tr:nth-child(even)
+    {
+        background-color:	#708090;
+    }
+tbody tr:nth-child(odd)
+    {
+        background-color:#C0C0C0;
+    }
+.nav-item
+{
+text-align:right;
+}
+.carousel .item img {
+  max-height: 600px;
+  min-width: auto;
+  max-width: 100%;
+      height: auto;
+}
+.circle {
+  background: url(https://d13yacurqjgara.cloudfront.net/users/212457/screenshots/2212523/yo.jpg) #000;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  transition: all .3s ease-in-out;
+}
+
+.circle:hover {
+  border-radius:0;  
+  cursor: pointer;
+}
+
+.text {
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+  padding-top: 0px;B
+  transition: all .3s ease-in-out;
+}
+
+.circle:hover .text {
+  padding-top: 40px;
+  opacity: 1;
+}
+body {
+font-size:18px;
+ color:#ffffff;
+ background:#000000; 
+font-family: 'Nunito', sans-serif;
+} 
+h1{
+font-family: 'Nunito', sans-serif;
+font-size:20px;
+color:#E350F3;
+}
+h2{
+font-family: 'Nunito', sans-serif;
+font-size:20px;
+color:#E350F3;
+}
+h3{
+font-family: 'Nunito', sans-serif;
+font-size:20px;
+color:#E350F3;
+}
+h4{
+font-family: 'Nunito', sans-serif;
+font-size:20px;
+color:#E350F3;
+}
+h5{
+font-family: 'Nunito', sans-serif;
+font-size:20px;
+color:#E350F3;
+}
+h6{
+font-family: 'Nunito', sans-serif;
+font-size:20px;
+color:#E350F3;
+}
+
+.fas
+{
+color:red;
+}
+ .carousel
+{
+height: 600px;
+}
+.btn-primary
+{
+	margin:0px;
+	margin-left:10px;
+	margin-right:10px;
+	height:50px;
+	padding:0px;
+	
+	
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: 	 	 #bfbfbf !important;
+	border-color:transparent; !important;
+	color:black;
